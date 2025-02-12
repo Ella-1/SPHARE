@@ -1,7 +1,3 @@
-No problem! Here is the information for your smart contract in the format of a `README.md` file, with all the necessary details. You can copy and paste it directly:
-
----
-
 # Sphear Listen to Earn Smart Contract
 
 This smart contract allows users to earn rewards (in the form of SPHEAR tokens) by listening to content. The contract is built using Solidity and leverages OpenZeppelin's contracts for security and functionality. Users register their devices, start and stop listening sessions, and earn rewards based on the listening duration.
