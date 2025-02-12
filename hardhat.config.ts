@@ -1,6 +1,7 @@
 import type { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox-viem";
 import { vars } from "hardhat/config";
+require('dotenv').config();
 
 const config: HardhatUserConfig = {
   solidity: "0.8.28",
@@ -20,7 +21,7 @@ const config: HardhatUserConfig = {
 
 etherscan: {
   apiKey: {
-    sepolia: 'F1QYMFAQPITGC1T2EJ9ABEQ9F7P8F2MTX4'
+    sepolia: process.env.ETHERSCAN_API ?? "",
   }
 }
 };
